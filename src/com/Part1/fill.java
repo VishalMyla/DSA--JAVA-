@@ -1,4 +1,4 @@
-package com.teja;
+package com.Part1;
 
 import java.util.ArrayList;
 import java.util.Arrays;

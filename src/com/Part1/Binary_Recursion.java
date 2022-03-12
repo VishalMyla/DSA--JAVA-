@@ -1,4 +1,4 @@
-package com.teja;
+package com.Part1;
 
 public class Binary_Recursion {
     public static void main(String[] args) {
