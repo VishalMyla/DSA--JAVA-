@@ -9,7 +9,7 @@ public class ceeling_of_a_number {
     static int celling(int[] arr,int target){
         int start=0;
         int end= arr.length-1;
-        if(arr[end]<target){
+        if(arr.length==0 || target>arr[arr.length-1]){
             return -1;
         }
         while(start<end){
