@@ -1,5 +1,5 @@
 package com.Binary_search_Problem;
-
+//https://leetcode.com/problems/sqrtx/
 class Sqrt_x {
     public int mySqrt(int x) {
         int start=1,end=x;
