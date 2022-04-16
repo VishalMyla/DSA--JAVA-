@@ -2,8 +2,8 @@ package com.Binary_search_Problem;
 
 public class binary_alg {
     public static void main(String[] args) {
-        int[] arr={1};
-        int target=1;
+        int[] arr={0,1,2,2,2,9};
+        int target=2;
         System.out.println(binary(arr,target));
     }
 //    this will return the index value of the target element
