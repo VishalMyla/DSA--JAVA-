@@ -1,8 +1,8 @@
 package com.Binary_search_Problem;
 
-public class peak_non_duplicates {
+public class pivit_non_duplicates {
     public static void main(String[] args) {
-        int[] arr={34,37,66,99,1,2};
+        int[] arr={3,4,5,1,2};
         System.out.println(peak(arr));
     }
     static int peak(int[] arr){
@@ -18,7 +18,7 @@ public class peak_non_duplicates {
             else if(mid>start && arr[mid-1]>arr[mid]){
                 return mid-1;
             }
-            if(mid<end && arr[mid]<arr[mid+1]){
+            if(arr[mid]>arr[start] ){
                 start=mid+1;
             }
             else {
