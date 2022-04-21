@@ -1,5 +1,4 @@
 package com.Binary_search_Problem;
-
 public class floor_of_a_number {
     public static void main(String[] args) {
         int[] arr={2,3,5,7,9,14,16,18};
@@ -21,10 +20,7 @@ public class floor_of_a_number {
             else if(arr[mid]<target) {
                 ans=mid;
                 start=mid+1;
-
             }
-
-
         }
         return ans;
     }
