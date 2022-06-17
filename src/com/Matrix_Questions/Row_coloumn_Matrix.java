@@ -27,7 +27,5 @@ public class Row_coloumn_Matrix {
           }
       }
       return new int[]{-1,-1};
-
-
     }
 }

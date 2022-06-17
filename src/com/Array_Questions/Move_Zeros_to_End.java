@@ -22,9 +22,14 @@ public class Move_Zeros_to_End {
             }
         }
     }
+
+
     static void swap(int[] arr,int a,int b){
         int test=arr[a];
         arr[a]=arr[b];
         arr[b]=test;
     }
+
+
+
 }
