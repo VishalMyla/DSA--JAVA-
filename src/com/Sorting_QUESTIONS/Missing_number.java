@@ -16,7 +16,7 @@ public class Missing_number {
           while(start< arr.length){
                if(arr[start]<arr.length && arr[start]!= arr[arr[start]]){
                     swap(arr,start,arr[start]);
-                    }
+               }
                else{
                     start++;
                }
